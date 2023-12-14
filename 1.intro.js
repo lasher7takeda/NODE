@@ -1,13 +1,13 @@
-book = 'dexter'
-page-number = 333
-type = 'mystery'
-fiyat = 250
-bilgi = book + page-number + type
-bilgi = 'Bilgi : ' + book + ' ' + page-number + ' ' +type+ 'Fiyat = ' + fiyat
+var book = 'Dexter'
+var type = 'Gizem'
+var fiyat = 250 
+var pagenumber = 333
+var bilgi = book + pagenumber + type
+bilgi = 'Kitap Adı : ' + book + ' , Sayfa Sayisi : ' + pagenumber + ' , Tür : ' +type+ ' , Fiyat = ' + fiyat + 'tl'
 
 
 console.log(book)
-console.log(page-number)
+console.log(pagenumber)
 console.log(type)
 console.log(fiyat)
 console.log(bilgi)
